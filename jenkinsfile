@@ -15,7 +15,7 @@ pipeline {
                     sh 'python3 -m tox -e build'
                 }
             }
-	}
+	
 	stage('test') {
                 when{
                     //only execute tests is test parameter is true
