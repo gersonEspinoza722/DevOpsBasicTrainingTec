@@ -25,4 +25,5 @@ pipeline {
                     sh 'python3 -m tox -e test'
                 }
             }
+       }
 }
