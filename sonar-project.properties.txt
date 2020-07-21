@@ -1,0 +1,2 @@
+sonar.projectKey=espinoza_gerson
+sonar.sources=.
